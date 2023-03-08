@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+ <p><?= $page->text() ?></p>
+
  <ul class="projets">
     <?php foreach ($page->images() as $image): ?>
     <li> 

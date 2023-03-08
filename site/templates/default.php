@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
 
- <?= $page->text() ?>
+ <p><?= $page->text() ?></p>
  
- <?php snippet('footer') ? >
+ <?php snippet('footer') ?>
